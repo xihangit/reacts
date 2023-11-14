@@ -1,0 +1,60 @@
+
+
+#works{
+    margin: 2rem;
+    min-height:calc(100vh-4rem);
+    width:100vw;
+    max-width:60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.worksTitle{
+    background: gainsboro;
+    font-size: medium;
+    font-weight: 20;
+
+}
+
+.worksDesc{
+    font-weight: 200;
+    font-size: large;
+    background-color: bisque;
+}
+.worksImags {
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    max-width: 65rem;
+  
+  flex-wrap:wrap;
+}
+
+.worksImg {
+    object-fit: cover;
+height:10rem
+  
+}
+.workBtn{
+    margin: 1rem;
+    
+    padding: 0.5rem 2.5rem;
+    border:none;
+    border-radius: 9rem;
+    background: dodgerblue;
+    font-size: large;
+    font-weight: 300;
+}
+
+@media screen and (max-width:585px){
+        .worksImg{
+            height: 50vw;
+        }
+}
