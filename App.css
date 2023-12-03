@@ -1,6 +1,17 @@
+.App {
+    text-align: center;
 
-
-.nav-var{
-  display:flex;
-  align-items:center;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+  };
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  body {
+    background-color: beige;
+  }

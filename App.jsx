@@ -1,26 +1,21 @@
+import React from 'react';
 
-import React from "react";
+import Index from './routes/Index';
 
-import Navbar from './port/Navbar'
-import Intro from './port/Intro'
-import Skill from './port/Skill'
-import Works from './xihan/Works'
-import Contact from './xihan/Contact'
-import Footer from './xihan/Footer'
 
-function  App() {
+
+
+
+
+
+ function App(){
   return (
     <div>
-  <Navbar />
-  <Intro />
-  <Skill  />
-
-  <Works />
-
-  <Contact />
-  <Footer />
+     
+        <Index />
+  
     </div>
   );
-}
+};
 
 export default App;
