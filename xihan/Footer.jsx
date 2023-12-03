@@ -10,4 +10,4 @@ copyright #5612,xihan,All resved received.
   )
 }
 
-export default Footer
+export default Footer;

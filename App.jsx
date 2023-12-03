@@ -1,7 +1,13 @@
 import React from 'react';
 
-import Index from './routes/Index';
+import Navbar from './port/Navbar'
+import Intro from './port/Intro'
+import Skill from './port/Skill';
+import Works from './xihan/Works';
 
+
+import Footer from './xihan/Contact';
+import Contact from './xihan/Contact';
 
 
 
@@ -12,7 +18,14 @@ import Index from './routes/Index';
   return (
     <div>
      
-        <Index />
+        <Navbar />
+        <Intro />
+        <Skill/>
+        <Works/>
+      
+        <Footer />
+      
+
   
     </div>
   );

@@ -69,9 +69,13 @@ function Contact() {
         </form>
 
         <div className="links">
+
+
           <img src={icon} alt="" className="link" />
           <img src={lala} alt="" className="link" />
           <img src={rala} alt="" className="link" />
+
+          
         
         </div>
       </div>
